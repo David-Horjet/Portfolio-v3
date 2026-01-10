@@ -10,10 +10,10 @@ const Footer: React.FC = () => {
              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 0H4V4H0V12H4V16H12V12H16V4H12V0ZM12 4V12H4V4H12Z" fill="white"/>
             </svg>
-            <span className="text-white font-bold text-lg group-hover:text-primary transition-colors cursor-pointer">Elias</span>
-            <span className="text-gray text-sm ml-4 cursor-pointer hover:text-white transition-colors">elias@elias-dev.ml</span>
+            <span className="text-white font-bold text-lg group-hover:text-primary transition-colors cursor-pointer">David Horjet</span>
+            <span className="text-gray text-sm ml-4 cursor-pointer hover:text-white transition-colors">davidhorjet@gmail.com</span>
           </div>
-          <p className="text-white text-sm">Web designer and front-end developer</p>
+          <p className="text-white text-sm">Full Stack Web and Blockchain developer</p>
         </div>
         
         <div className="space-y-4">
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </div>
-      <p className="text-gray text-center text-sm">© Copyright 2022. Made by Elias</p>
+      <p className="text-gray text-center text-sm">© Copyright 2026. Horjet</p>
     </footer>
   );
 };

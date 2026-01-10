@@ -7,8 +7,8 @@ const Hero: React.FC = () => {
     return (
         <section className="relative mt-20 md:mt-32 px-4 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-0">
             <div className="flex-1 max-w-135">
-                <h1 className="text-3xl md:text-[32px] font-bold text-white leading-tight mb-8">
-                    Elias is a <span className="text-primary">web designer</span> and <span className="text-primary">front-end developer</span>
+                <h1 className="text-3xl md:text-[32px] font-bold text-white leading-snug mb-8">
+                    Horjet is a Full Stack <span className="text-primary">Web designer</span> and <span className="text-primary">Blochain developer</span>
                 </h1>
                 <p className="text-gray mb-6 leading-relaxed">
                     He crafts responsive websites where technologies meet creativity
@@ -29,14 +29,14 @@ const Hero: React.FC = () => {
                             src="/images/Horjet.png"
                             alt="Elias Profile"
                             className="w-full grayscale brightness-75 hover:grayscale-0 transition-all duration-500"
-                            width={450}
-                            height={600}
+                            width={700}
+                            height={700}
                         />
                     </div>
 
                     <div className="relative z-20 -mt-px border border-gray bg-[#282C33] p-2 flex items-center gap-2">
                         <div className="w-4 h-4 bg-primary"></div>
-                        <span className="text-gray text-sm">Currently working on <span className="text-white font-medium">Portfolio</span></span>
+                        <span className="text-gray text-sm">Currently building <span className="text-white font-medium">cool shits</span></span>
                     </div>
                 </div>
             </div>

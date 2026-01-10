@@ -23,7 +23,7 @@ export default function Home() {
       <Header />
       <SideNavigation />
       
-      <main className="w-full max-w-5xl px-4 md:px-8 mt-16 flex flex-col">
+      <main className="w-full max-w-6xl px-4 md:px-8 mt-16 flex flex-col">
         <Hero />
         <Quote />
         <ProjectsSection />

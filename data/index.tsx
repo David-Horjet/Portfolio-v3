@@ -27,23 +27,23 @@ export const PROJECTS: Project[] = [
 export const SKILLS: SkillCategory[] = [
   {
     title: "Languages",
-    skills: ["TypeScript", "Lua", "Python", "JavaScript"]
+    skills: ["TypeScript", "Rust", "Python", "JavaScript"]
   },
   {
     title: "Databases",
-    skills: ["SQLite", "PostgreSQL", "Mongo"]
+    skills: ["SQLite", "PostgreSQL", "MongoDb", "Supabase"]
   },
   {
     title: "Tools",
-    skills: ["VSCode", "Neovim", "Linux", "Figma", "XFCE", "Arch", "Git", "Font Awesome"]
+    skills: ["VSCode", "Postman", "Linux", "Figma", "Swagger", "Ubuntu", "Git"]
   },
   {
     title: "Other",
-    skills: ["HTML", "CSS", "EJS", "SCSS", "REST", "Jinja"]
+    skills: ["HTML", "CSS", "EJS", "SCSS", "REST", "Websockets", "Docker"]
   },
   {
     title: "Frameworks",
-    skills: ["React", "Vue", "Disnake", "Discord.js", "Flask", "Express.js"]
+    skills: ["React", "FastApi", "Express.js", "Next.js", "Anchor"]
   }
 ];
 

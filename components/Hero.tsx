@@ -8,10 +8,10 @@ const Hero: React.FC = () => {
         <section className="relative mt-20 md:mt-32 px-4 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-0">
             <div className="flex-1 max-w-135">
                 <h1 className="text-3xl md:text-[32px] font-bold text-white leading-snug mb-8">
-                    Horjet is a Full Stack <span className="text-primary">Web </span> and <span className="text-primary">Blochain developer</span>
+                    I'm a Full Stack <span className="text-primary">Web </span> and <span className="text-primary">Blochain developer</span>
                 </h1>
                 <p className="text-gray mb-6 leading-relaxed">
-                    He crafts responsive websites where technologies meet creativity
+                    I build intuitive web & blockchain products with modern technologies. Turning ideas into scalable, production-ready applications.
                 </p>
                 <button className="border border-primary px-4 py-2 text-white hover:bg-primary/10 transition-colors font-medium">
                     Contact me !!

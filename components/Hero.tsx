@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
         <section className="relative mt-20 md:mt-32 px-4 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-0">
             <div className="flex-1 max-w-135">
                 <h1 className="text-3xl md:text-[32px] font-bold text-white leading-snug mb-8">
-                    Horjet is a Full Stack <span className="text-primary">Web designer</span> and <span className="text-primary">Blochain developer</span>
+                    Horjet is a Full Stack <span className="text-primary">Web </span> and <span className="text-primary">Blochain developer</span>
                 </h1>
                 <p className="text-gray mb-6 leading-relaxed">
                     He crafts responsive websites where technologies meet creativity

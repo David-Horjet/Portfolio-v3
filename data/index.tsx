@@ -2,24 +2,24 @@ import { Project, SkillCategory } from "@/types";
 
 export const PROJECTS: Project[] = [
   {
-    title: "ChertNodes",
-    description: "Minecraft servers hosting",
-    technologies: ["HTML", "SCSS", "Python", "Flask"],
-    image: "https://picsum.photos/seed/chert/400/200",
+    title: "Swiv",
+    description: "A decentralized perpetuals exchange built on Solana with advanced trading features.",
+    technologies: ["Next.Js", "Typescript", "Node.Js", "Websockets", "Solana", "Rust", "Anchor"],
+    image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2004.57.47.png?w=600&h=400&fit=crop",
     links: { live: "#", cached: "#" }
   },
   {
-    title: "ProtectX",
-    description: "Discord anti-crash bot",
-    technologies: ["React", "Express", "Discord.js", "Node.js", "HTML", "SCSS", "Python", "Flask"],
-    image: "https://picsum.photos/seed/protect/400/200",
+    title: "Omrix AI",
+    description: "Create, deploy, and automate AI agents in seconds — no code necessary",
+    technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "OpenAI API"],
+    image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.14.50.png?w=800&h=600&fit=crop",
     links: { live: "#" }
   },
   {
-    title: "Kahoot Answers Viewer",
-    description: "Get answers to your kahoot quiz",
-    technologies: ["CSS", "Express", "Node.js"],
-    image: "https://picsum.photos/seed/kahoot/400/200",
+    title: "Motherland Imperial",
+    description: "Luxury real estate platform showcasing premium properties with admin management tools.",
+    technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Figma"],
+    image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.20.50.png?w=800&h=600&fit=crop",
     links: { live: "#" }
   }
 ];

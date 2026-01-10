@@ -3,7 +3,7 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#16191d] z-50">
+    <header className="fixed top-0 left-0 w-full bg-[#050505] z-50">
       <div className="max-w-6xl mx-auto px-4 py-8 flex justify-between items-center">
         <div className="flex items-center gap-2 cursor-pointer group">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

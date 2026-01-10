@@ -11,7 +11,7 @@ import { DotPattern } from "@/data";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center bg-[#16191d] relative overflow-x-hidden selection:bg-primary selection:text-white">
+    <div className="min-h-screen flex flex-col items-center bg-[#050505] relative overflow-x-hidden selection:bg-primary selection:text-white">
       {/* Background Decor */}
       <div className="absolute top-[20%] -left-10 md:left-[-2%] opacity-10 pointer-events-none">
         <DotPattern />

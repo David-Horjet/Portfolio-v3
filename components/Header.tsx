@@ -3,13 +3,13 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header className="fixed top-0 left-0 w-full bg-[#282C33] z-50">
+    <header className="fixed top-0 left-0 w-full bg-[#16191d] z-50">
       <div className="max-w-5xl mx-auto px-4 py-8 flex justify-between items-center">
         <div className="flex items-center gap-2 cursor-pointer group">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M12 0H4V4H0V12H4V16H12V12H16V4H12V0ZM12 4V12H4V4H12Z" fill="white"/>
           </svg>
-          <span className="text-white font-bold text-lg group-hover:text-primary transition-colors">Elias</span>
+          <span className="text-white font-bold text-lg group-hover:text-primary transition-colors">David Horjet</span>
         </div>
         
         <nav className="hidden md:flex items-center gap-8">

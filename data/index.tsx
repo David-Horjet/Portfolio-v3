@@ -21,6 +21,34 @@ export const PROJECTS: Project[] = [
     technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Figma"],
     image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.20.50.png?w=800&h=600&fit=crop",
     links: { live: "#" }
+  },
+  {
+    title: "FlyBirdie",
+    description: "A Match, merge, and master game on Base and TON. Compete with players worldwide.",
+    technologies: ["Next.Js", "TypeScript", "Redux", "Figma"],
+    image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.17.10.png?w=800&h=600&fit=crop",
+    links: { live: "#" }
+  },
+  {
+    title: "Ogavisa",
+    description: "Comprehensive visa and immigration service platform streamlining application processes.",
+    technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Figma"],
+    image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.22.43.png?w=800&h=600&fit=crop",
+    links: { live: "#" }
+  },
+  {
+    title: "Sicilia Brand",
+    description: "Italian E-commerce fashion platform with custom shopping experience, inventory management, and seamless checkout process.",
+    technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Figma"],
+    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
+    links: { live: "#" }
+  },
+  {
+    title: "StyleMeUp",
+    description: "Beauty and grooming booking website that make it easy and faster to connect with top service providers across Nigeria.",
+    technologies: ["NextJs", "TypeScript", "Node.js", "Express", "Figma"],
+    image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.18.52.png?w=800&h=600&fit=crop",
+    links: { live: "#" }
   }
 ];
 
@@ -35,7 +63,7 @@ export const SKILLS: SkillCategory[] = [
   },
   {
     title: "Tools",
-    skills: ["VSCode", "Postman", "Linux", "Figma", "Swagger", "Ubuntu", "Git"]
+    skills: ["VSCode", "Postman", "Linux", "Figma", "Swagger", "Redux", "Ubuntu", "Git"]
   },
   {
     title: "Other",

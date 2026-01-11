@@ -5,7 +5,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
     return (
-        <section className="relative mt-20 md:mt-32 px-4 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-0">
+        <section id='home' className="relative mt-20 md:mt-32 px-4 flex flex-col md:flex-row items-center justify-between gap-12 md:gap-0">
             <div className="flex-1 max-w-135">
                 <h1 className="text-3xl md:text-[32px] font-bold text-white leading-snug mb-8">
                     I'm a Full Stack <span className="text-primary">Web </span> and <span className="text-primary">Blochain developer</span>

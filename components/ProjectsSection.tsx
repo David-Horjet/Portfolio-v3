@@ -5,7 +5,7 @@ import { PROJECTS } from '@/data';
 
 const ProjectsSection: React.FC = () => {
   return (
-    <section className="my-20 px-4">
+    <section id='works' className="my-20 px-4">
       <div className="flex justify-between items-center mb-12">
         <div className="flex items-center gap-4 flex-1">
           <h2 className="text-2xl md:text-3xl font-bold text-white whitespace-nowrap">

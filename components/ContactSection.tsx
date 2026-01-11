@@ -3,7 +3,7 @@ import React from 'react';
 
 const ContactSection: React.FC = () => {
     return (
-        <section className="my-28 px-4">
+        <section id='contact' className="my-28 px-4">
             <div className="flex items-center gap-4 mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-white">
                     <span className="text-primary">#</span>contacts

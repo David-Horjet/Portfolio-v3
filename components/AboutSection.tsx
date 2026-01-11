@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const AboutSection: React.FC = () => {
     return (
-        <section className="my-28 px-4">
+        <section id='about' className="my-28 px-4">
             <div className="flex items-center gap-4 mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-white">
                     <span className="text-primary">#</span>about-me
@@ -25,7 +25,7 @@ const AboutSection: React.FC = () => {
                         </p>
                     </div>
                     <button className="border border-primary px-4 py-2 text-white hover:bg-primary/10 transition-colors font-medium flex items-center gap-2">
-                        Read more {"->"}
+                        Contact me {"->"}
                     </button>
                 </div>
 

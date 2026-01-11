@@ -15,16 +15,16 @@ const Header: React.FC = () => {
         <nav className="hidden md:flex items-center gap-8">
           <ul className="flex items-center gap-8 text-gray">
             <li className="hover:text-white transition-colors cursor-pointer">
-              <span className="text-primary font-medium">#</span>home
+              <a href="#home" className="flex items-center"><span className="text-primary font-medium">#</span>home</a>
             </li>
             <li className="hover:text-white transition-colors cursor-pointer">
-              <span className="text-primary font-medium">#</span>works
+              <a href="#works" className="flex items-center"><span className="text-primary font-medium">#</span>works</a>
             </li>
             <li className="hover:text-white transition-colors cursor-pointer">
-              <span className="text-primary font-medium">#</span>about-me
+              <a href="#about" className="flex items-center"><span className="text-primary font-medium">#</span>about-me</a>
             </li>
             <li className="hover:text-white transition-colors cursor-pointer">
-              <span className="text-primary font-medium">#</span>contacts
+              <a href="#contact" className="flex items-center"><span className="text-primary font-medium">#</span>contacts</a>
             </li>
           </ul>
         </nav>

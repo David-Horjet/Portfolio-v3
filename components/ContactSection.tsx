@@ -21,9 +21,15 @@ const ContactSection: React.FC = () => {
                 <div className="border border-gray p-4 h-fit md:min-w-50 group hover:border-primary transition-colors">
                     <h4 className="text-white font-bold mb-4">Message me here</h4>
                     <div className="space-y-3">
-                        <a href="mailto:davidhorjet@gmai.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray hover:text-white transition-colors cursor-pointer group/item">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="text-gray group-hover/item:text-primary">
-                                <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.4214 1.7899 4.7563 2.872 7.0433 3.58a.0768.0768 0 00.0835-.027c.5401-.739 1.0125-1.5361 1.4088-2.3781a.0767.0767 0 00-.0418-.1058 12.5907 12.5907 0 01-1.8907-.901.0784.0784 0 00-.0083-.1311c.1265-.0948.253-.1928.3734-.294a.0754.0754 0 00.0264-.0784 14.28 14.28 0 0110.7412 0 .075.075 0 00.0264.0784c.1204.1012.2469.1992.3734.294a.0788.0788 0 00-.0083.1311 12.1541 12.1541 0 01-1.8907.901.0763.0763 0 00-.0418.1058c.3963.842 1.4088 2.3781 1.4088 2.3781a.0762.0762 0 00.0835.027c2.287-.708 4.6219-1.7901 7.0433-3.58a.0824.0824 0 00.0312-.0561c.5004-5.177-.8382-9.6739-3.5493-13.6604a.068.068 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189z" />
+                        <a href="https://t.me/davidhorjet" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gray hover:text-white transition-colors cursor-pointer group/item">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className="text-gray group-hover:text-primary transition-colors"
+                            >
+                                <path d="M9.993 15.674l-.396 5.58c.567 0 .813-.244 1.107-.536l2.655-2.528 5.5 4.02c1.01.557 1.723.265 1.986-.93l3.603-16.93c.336-1.56-.564-2.17-1.547-1.81L1.114 9.634c-1.524.594-1.5 1.44-.26 1.825l5.743 1.793L19.9 6.364c.622-.41 1.19-.183.723.227" />
                             </svg>
                             <span>davidhorjet</span>
                         </a>

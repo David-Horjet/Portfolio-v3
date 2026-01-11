@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "David Horjet's Portfolio",
-  description: "Welcome to the portfolio of David Horjet, Tea or Coffee?",
+  description: "Hello, Welcome to the Horjet's Cave, Tea or Coffee?",
 };
 
 export default function RootLayout({

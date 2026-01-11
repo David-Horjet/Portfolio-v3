@@ -1,6 +1,7 @@
 
 import { SquaresPattern, DotPattern } from '@/data';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Hero: React.FC = () => {
@@ -13,9 +14,9 @@ const Hero: React.FC = () => {
                 <p className="text-gray mb-6 leading-relaxed">
                     I build intuitive web & blockchain products with modern technologies. Turning ideas into scalable, production-ready applications.
                 </p>
-                <button className="border border-primary px-4 py-2 text-white hover:bg-primary/10 transition-colors font-medium">
+                <Link href={"#contact"} className="border border-primary px-4 py-2 text-white hover:bg-primary/10 transition-colors font-medium">
                     Contact me !!
-                </button>
+                </Link>
             </div>
 
             <div className="relative flex-1 flex justify-center md:justify-end">

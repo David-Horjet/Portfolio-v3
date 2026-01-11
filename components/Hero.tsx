@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
                         />
                     </div>
 
-                    <div className="relative z-20 -mt-px border border-gray bg-[#282C33] p-2 flex items-center gap-2">
+                    <div className="relative z-20 -mt-px border border-gray-700 bg-gray-900 p-2 flex items-center gap-2">
                         <div className="w-4 h-4 bg-primary"></div>
                         <span className="text-gray text-sm">Currently building <span className="text-white font-medium">cool shits</span></span>
                     </div>

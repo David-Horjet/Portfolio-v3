@@ -6,49 +6,49 @@ export const PROJECTS: Project[] = [
     description: "A decentralized perpetuals exchange built on Solana with advanced trading features.",
     technologies: ["Next.Js", "Typescript", "Node.Js", "Websockets", "Solana", "Rust", "Anchor"],
     image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2004.57.47.png?w=600&h=400&fit=crop",
-    links: { live: "#", cached: "#" }
+    links: { live: "https://swiv.xyz/" }
   },
   {
     title: "Omrix AI",
     description: "Create, deploy, and automate AI agents in seconds — no code necessary",
     technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "OpenAI API"],
     image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.14.50.png?w=800&h=600&fit=crop",
-    links: { live: "#" }
+    links: { live: "https://omrix.fun/" }
   },
   {
     title: "Motherland Imperial",
     description: "Luxury real estate platform showcasing premium properties with admin management tools.",
     technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Figma"],
     image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.20.50.png?w=800&h=600&fit=crop",
-    links: { live: "#" }
+    links: { live: "https://motherlandimperial.com/" }
   },
   {
     title: "FlyBirdie",
     description: "A Match, merge, and master game on Base and TON. Compete with players worldwide.",
     technologies: ["Next.Js", "TypeScript", "Redux", "Figma"],
     image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.17.10.png?w=800&h=600&fit=crop",
-    links: { live: "#" }
+    links: { live: "https://flybirdie.io/" }
   },
   {
     title: "Ogavisa",
     description: "Comprehensive visa and immigration service platform streamlining application processes.",
     technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Figma"],
     image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.22.43.png?w=800&h=600&fit=crop",
-    links: { live: "#" }
+    links: { live: "https://ogavisa.co/landing" }
   },
   {
     title: "Sicilia Brand",
     description: "Italian E-commerce fashion platform with custom shopping experience, inventory management, and seamless checkout process.",
     technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Figma"],
     image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
-    links: { live: "#" }
+    links: { live: "https://siciliabrand.com/" }
   },
   {
     title: "StyleMeUp",
     description: "Beauty and grooming booking website that make it easy and faster to connect with top service providers across Nigeria.",
     technologies: ["NextJs", "TypeScript", "Node.js", "Express", "Figma"],
     image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.18.52.png?w=800&h=600&fit=crop",
-    links: { live: "#" }
+    links: { live: "https://stylemeup.ng/" }
   }
 ];
 

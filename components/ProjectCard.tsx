@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Project } from '../types';
+import Link from 'next/link';
 
 interface ProjectCardProps {
   project: Project;
@@ -27,15 +28,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         
         <div className="flex gap-4">
           {project.links.live && (
-            <button className="border border-primary px-3 py-1 text-white text-sm font-medium hover:bg-primary/10 transition-colors flex items-center gap-2">
+            <Link href={project.links.live} className="border border-primary px-3 py-1 text-white text-sm font-medium hover:bg-primary/10 transition-colors flex items-center gap-2">
               Live {"<~>"}
-            </button>
+            </Link>
           )}
-          {project.links.cached && (
+          {/* {project.links.cached && (
             <button className="border border-gray px-3 py-1 text-gray text-sm font-medium hover:bg-gray/10 transition-colors flex items-center gap-2">
               Cached {">"}
             </button>
-          )}
+          )} */}
         </div>
       </div>
     </div>

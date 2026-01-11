@@ -2,6 +2,7 @@
 import { DotPattern } from '@/data';
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const AboutSection: React.FC = () => {
     return (
@@ -24,9 +25,9 @@ const AboutSection: React.FC = () => {
                             Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.
                         </p>
                     </div>
-                    <button className="border border-primary px-4 py-2 text-white hover:bg-primary/10 transition-colors font-medium flex items-center gap-2">
+                    <Link href={"#contact"} className="w-fit border border-primary px-4 py-2 text-white hover:bg-primary/10 transition-colors font-medium flex items-center gap-2">
                         Contact me {"->"}
-                    </button>
+                    </Link>
                 </div>
 
                 <div className="relative flex-1 flex justify-center">

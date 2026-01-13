@@ -16,6 +16,13 @@ export const PROJECTS: Project[] = [
     links: { live: "https://omrix.fun/" }
   },
   {
+    title: "Lamdon",
+    description: "An app where you discover top-tier serviced apartments with ease.",
+    technologies: ["NextJs", "TypeScript", "Node.js", "Express", "MongoDB"],
+    image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screen%20Shot%202026-01-13%20at%202.44.13%20AM.png?w=800&h=600&fit=crop",
+    links: { live: "https://www.lamdon.co/" }
+  },
+  {
     title: "Motherland Imperial",
     description: "Luxury real estate platform showcasing premium properties with admin management tools.",
     technologies: ["React", "TypeScript", "Node.js", "Express", "PostgreSQL", "Figma"],
@@ -49,6 +56,13 @@ export const PROJECTS: Project[] = [
     technologies: ["NextJs", "TypeScript", "Node.js", "Express", "Figma"],
     image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screenshot%202025-07-20%20at%2005.18.52.png?w=800&h=600&fit=crop",
     links: { live: "https://stylemeup.ng/" }
+  },
+  {
+    title: "Quintessence",
+    description: "A Photography portfolio website showcasing stunning visuals and creative projects.",
+    technologies: ["NextJs", "TypeScript", "Email.Js", "Figma"],
+    image: "https://p0donyprzzs2zmqz.public.blob.vercel-storage.com/Screen%20Shot%202026-01-13%20at%202.52.32%20AM.png?w=800&h=600&fit=crop",
+    links: { live: "https://www.quintessencezdt.com/" }
   }
 ];
 
